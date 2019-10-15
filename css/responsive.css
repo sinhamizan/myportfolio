@@ -1,0 +1,259 @@
+/* desktop Layout: 1140px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199.99px) {
+
+
+
+
+}
+
+/* laptop Layout: 720px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991.99px) {
+
+#menu {
+	display: none;
+	z-index: -1;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	z-index: 999999;
+	background: transparent;
+	width: 100%;
+}
+.slicknav_btn {
+	color: #fff;
+	font-weight: 600;
+	background: transparent;
+	margin-right: 8%;
+}
+.slicknav_nav {
+	background: #000;
+	text-align: center;
+	width: 300px;
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+.slicknav_nav a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+}
+.slicknav_nav a:hover {
+	color: #7cb342;
+}
+.banner-title h1 {
+	font-size: 48px;
+	line-height: 48px;
+}
+.about-me {
+	padding-left: 0;
+	text-align: center;
+	padding-top: 30px;
+}
+.my-pic-area {
+	margin: 0 20%;
+}
+.single-count i {
+	font-size: 48px;
+}
+.my-skill {
+	text-align: start;
+}
+
+
+
+}
+
+/* Wide Mobile Layout: px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+#menu {
+	display: none;
+	z-index: -1;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	z-index: 999999;
+	background: transparent;
+	width: 100%;
+}
+.slicknav_btn {
+	color: #fff;
+	font-weight: 600;
+	background: transparent;
+	margin-right: 8%;
+}
+.slicknav_nav {
+	background: #000;
+	text-align: center;
+	width: 300px;
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+.slicknav_nav a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+}
+.slicknav_nav a:hover {
+	color: #7cb342;
+}
+.banner-title h1 {
+	font-size: 40px;
+	line-height: 40px;
+}
+.my-pic-area {
+	margin: 0 20%;
+}
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+}
+.about-me {
+	padding-left: 0;
+	text-align: center;
+	padding-top: 30px;
+}
+.about-cantent h4 {
+	font-size: 20px;
+}
+.my-skill {
+	text-align: start;
+}
+.my-skill h5 {
+	font-size: 16px;
+}
+.single-service {
+	height: 300px;
+}
+.single-count i {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+.single-count h3 {
+	font-size: 32px;
+}
+.single-count h5 {
+	font-size: 20px;
+}
+.contact-form textarea {
+	width: 100%;
+}
+#gotopbtn {
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 38px;
+}
+
+
+
+
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 575.98px) {
+
+#menu {
+	display: none;
+	z-index: -1;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	z-index: 999999;
+	background: transparent;
+	width: 100%;
+}
+.slicknav_btn {
+	color: #fff;
+	font-weight: 600;
+	background: transparent;
+	margin-right: 8%;
+}
+.slicknav_nav {
+	background: #000;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+.slicknav_nav a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+}
+.slicknav_nav a:hover {
+	color: #7cb342;
+}
+.banner-title h1 {
+	font-size: 40px;
+	line-height: 40px;
+}
+.my-pic-area {
+	margin: 0;
+}
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+}
+.about-me {
+	padding-left: 0;
+	text-align: center;
+	padding-top: 30px;
+}
+.about-cantent h4 {
+	font-size: 20px;
+}
+.my-skill {
+	text-align: start;
+}
+.my-skill h5 {
+	font-size: 16px;
+}
+.single-service {
+	height: 300px;
+}
+.single-count {
+	padding-bottom: 40px;
+}
+.single-count i {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+.single-count h3 {
+	font-size: 32px;
+	padding-bottom: 5px;
+}
+.single-count h5 {
+	font-size: 20px;
+}
+.contact-form textarea {
+	width: 100%;
+}
+#gotopbtn {
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 38px;
+}
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,91 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none !important;
+}
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	color: #222;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 36px;
+}
+h2 span {
+	color: #7CB342;
+}
+img {
+	width: 100%;
+}
+.header-bg {
+	background: #000;
+}
+
+.com-btn a {
+	background: #7CB342;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	border: 2px solid #7CB342;
+	font-size: 14px;
+	font-weight: 600;
+	transition: 0.5s;
+}
+.com-btn a:hover {
+	background: transparent;
+	color: #7cb342;
+}
+.ptb-60 {
+	padding: 60px 0;
+}
+.ptb-30 {
+	padding: 30px 0;
+}
+.pb-60 {
+	padding-bottom: 60px;
+}
+.pb-40 {
+	padding-bottom: 40px;
+}
+.pb-30 {
+	padding-bottom: 30px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.pt-30 {
+	padding-top: 30px;
+}
+
+/* slicnav */
+.slicknav_menu {
+	display:none;
+}
